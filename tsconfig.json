@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         /* Target ECMAScript version */
+    "module": "CommonJS",       /* Module system to use */
+    "outDir": "./bin",          /* Output directory for compiled files */
+    "rootDir": "./src",         /* Root directory of source files */
+    "strict": true,             /* Enable strict type-checking */
+    "esModuleInterop": true,    /* Enable default import syntax for CommonJS modules */
+    "forceConsistentCasingInFileNames": true,  /* Enforce consistent file casing */
+    "resolveJsonModule": true   /* Enable importing JSON files as modules */
+  },
+  "include": ["./src/**/*.ts"], /* Files to include in compilation */
+  "exclude": ["node_modules"]   /* Files to exclude from compilation */
+}
